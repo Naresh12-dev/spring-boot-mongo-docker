@@ -1,8 +1,7 @@
 version: '3.1'
-
 services:
-  springboot:
-    image: dockerhandson/spring-boot-mongo:latest
+  springboot: 
+    image: nareshdocker7890/spring-boot-mongo:BUILD_NUMBER
     restart: always # This will be ignored if we deploy in docker swarm
     ports:
       - 8080:8080
